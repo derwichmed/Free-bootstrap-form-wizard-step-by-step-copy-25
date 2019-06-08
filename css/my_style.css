@@ -1,0 +1,112 @@
+body{
+    background-color: #cfcfcf;
+}
+.form_wizard{
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+.form_wizard [class*=col], 
+.form_wizard [class*=container-]
+{
+    padding-left: 0px;
+    padding-right: 0px
+}
+.form_wizard > div[class*=col-]{
+    padding: 0px
+}
+.form_wizard > div > section{
+    background-color: gray;
+    background-image: linear-gradient(to bottom,#00b395,#0c8888);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 50px
+}
+.form_wizard > div > section form{
+    padding-left: 50px;
+    padding-right: 50px
+}
+.form_wizard .steps_liste_view{
+    position: absolute;
+    left: 0;
+    right: 0
+}
+.form_wizard .steps_liste_view > div{
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.form_wizard .steps_liste_view .item{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding: 15px;
+}
+.form_wizard .steps_liste_view .item img{
+    width: 100%;
+    height: 100%;
+}
+.form_wizard .steps_liste_view .active{
+    background-color: #00b395;
+    border: none;
+    box-shadow: 0 4px 2px -2px #0c8888;
+}
+.form_wizard .steps_liste_view .loading{
+    background-color: white;
+    border: #00b395 2px solid;
+}
+.form_wizard .form_item .form_label{
+    font-family: raleway;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    margin-bottom: 15px
+}
+.form_wizard .form_item label{
+    color: #05e2df;
+    font-size: 18px;
+}
+.form_wizard .form_item input{
+    background-color: transparent;
+    border: none;
+    border-bottom: #7cebdd 1px solid;
+    width: 100%
+}
+.form_wizard .form_item input::placeholder{
+    color: #55ccc2;
+    font-size: 12px
+}
+.form_wizard .form_item input:focus{
+    outline: none
+}
+.form_wizard .form_item input{
+    color: #55ccc2
+}
+.form_wizard .form_item .ligne{
+    margin-bottom: 20px
+}
+.form_wizard footer{
+    background-image: linear-gradient(to left bottom,#1f738f,#009088);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 80px;
+}
+.form_wizard footer input{
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+}
+.form_wizard footer .progress{
+    position: absolute;
+    bottom: 122px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    width: 100%;
+    background-color: transparent
+}
+.form_wizard footer .progress .progress-bar{
+    background-color: #3ec2bd;
+}
